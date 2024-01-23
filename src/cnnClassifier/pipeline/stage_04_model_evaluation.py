@@ -17,6 +17,7 @@ class EvaluationPipeline:
         evaluation = Evaluation(eval_config)
         evaluation.evaluation()
         evaluation.save_score()
+        #mlflow is was experiment tracking
         #evaluation.log_into_mlflow()
         
 
